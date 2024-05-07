@@ -1,0 +1,816 @@
+/* -------------------------------------------------
+  Mobile Device
+---------------------------------------------------*/
+@media  (min-width: 320px) and (max-width: 480px) {
+  
+
+
+/* paddding */
+
+.container {
+    padding: 0 12px;
+}
+
+  /* header css starts */
+
+
+  
+  header {
+    background: url("../img/banner-archer.png") no-repeat 60%70%, url("../img/banner-dots.png") no-repeat 95%90%, url("../img/banner-plus.png") no-repeat 10%15%, url("../img/banner-tree.png") no-repeat 0%100%, url("../img/banner-16.png") no-repeat center;
+    background-size: 200px ,auto,auto,100px,cover;
+
+}
+
+.heading-banner h1 {
+    font-size: 35px;
+
+}
+
+.heading-banner p {
+    max-width: 274px;
+
+}
+
+  /* header css ends */
+
+/* aboutus css starts */
+
+.aboutus-content-img{
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.aboutus-main-heading{
+    margin-bottom: 1rem;
+}
+
+.aboutus-content h2 {
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+    max-width: 450px;
+    word-spacing: 8px;
+    margin-top: 10px;    
+}
+
+.aboutus-mission-purpose{
+  flex-direction: column;
+
+}
+.aboutus-mission-purpose p {
+
+    max-width: 100%;
+}
+
+.aboutus-img{
+  text-align: center;
+}
+
+.aboutus-img img {
+  
+    height: auto;
+}
+
+.float-end {
+    float: none;
+}
+
+/* aboutus css ends */
+
+
+
+/* counter section starts */
+.counter-section{
+  flex-direction: column;
+  align-items: center;
+  gap:30px ;
+}
+
+.counter-content h1 {
+    margin: 0;
+    font-weight: 600;
+    width: 280px;
+}
+
+/* counter section ends */
+
+
+/* ourservicesbsection starts */
+
+.ourservices-section h1 {
+    font-size: 30px;
+}
+
+.ourservices-cards{
+  flex-direction: column;
+
+}
+.ourservices-card h4 {
+   font-size: 20px;
+
+}
+/* ourservicesbsection ends */
+
+/* helping card starts */
+
+.helping-section{
+    margin-bottom: 60px;
+}
+
+.helping-section-boxes{
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.helping-section h1 {
+
+font-size: 30px;
+
+}
+
+.helping-curve {
+  text-align: center;
+}
+
+.helping-curve img{
+  transform: rotate(250deg);
+}
+.helping-curve .curve-180{
+      transform: rotate(105deg);
+}
+/* helping card ends */
+
+
+/*banner 2 css starts */
+.banner-2-section {
+
+    background: url("../img/why-choose-bg.png") no-repeat center;
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 60px;
+}
+
+.banner-2-inner{
+  flex-direction: column;
+  gap: 40px;
+}
+
+.banner-2-img{
+  text-align: center;
+}
+
+.banner-2-img img {
+    width: 300.5px;
+    height: 290px;
+}
+
+.banner-2-content h1 {
+
+    font-size: 30px;
+ 
+}
+.banner-2-content h6 {
+  font-size: 12px;    
+
+}
+.content-cards{
+   flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.content-card-card {
+    padding: 4px;
+    height: 140px;
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/*banner 2 css ends */
+
+/* carousel section css starts */
+
+.vertical.carousel .carousel-indicators {
+
+    margin-left: 1rem;
+}
+
+
+.carousel-inner{
+  padding: 6px;
+}
+
+.carousal-button{
+  margin-right: 1rem;
+}
+
+.carousel-item  p{
+    max-width: 250px;
+    width: 100%;
+    font-size: 13px;
+}
+
+/* carousel section css ends */
+
+/* faq section css starts */
+
+.faq-section {
+    background: url(../img/footer-man-shape.png) no-repeat 0% 98%, url(../img/footer-man-shape-2.png) no-repeat 92% 98%, url(../img/footer-plant.png) no-repeat 99% 96%, url(../img/footer-dot-1.png) no-repeat 17% 65%, url(../img/footer-dot-1.png) no-repeat 98% 80%, url(../img/footer-rocket.png) no-repeat 74% 88%, url(../img/faqs-orange-line.svg) no-repeat 1% 6%, url(../img/footer-2-bg-2.png) no-repeat bottom;
+    background-size: 100px, 100px, 20px, auto, auto, 50px, 160px, auto;
+    }
+
+
+.faq-heading,.faq-content{
+   width: 100%;
+}
+
+.faq-heading h1 {
+    font-size: 30px;
+        width: 100%;
+    max-width: 280px;
+   
+}
+
+
+.faq-heading h5{
+   width: 275px;
+}
+
+.faq-heading p {
+    font-size: 14px;
+        width: 220px;
+
+}
+
+.faq-flex{
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-box .faq-answer p {
+    width: 290px;
+
+}
+.faq-content {
+    height: 600px;
+}
+/* faq section css ends */
+
+
+/* footer section css ends */
+.footer-flex{
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+/* footer section css ends */
+
+/* copyright section css starts */
+
+.copyright-section p{
+ font-size: 15px;
+}
+
+/* copyright section css ends */
+
+
+}
+
+
+
+
+/* -------------------------------------------------
+  481px — 768px: iPads, Tablets
+---------------------------------------------------*/
+@media (min-width:481px) and  (max-width: 768px) {
+  
+
+/* paddding */
+
+.container {
+    padding: 0 12px;
+}
+
+  /* header css starts */
+header {
+    background: url(../img/banner-archer.png) no-repeat 62% 69%, url(../img/banner-dots.png) no-repeat 90% 85%, url(../img/banner-plus.png) no-repeat 10% 15%, url(../img/banner-tree.png) no-repeat 20% 96%, url(../img/banner-16.png) no-repeat center;
+    background-size: 250px, auto, auto, 110px, cover;
+    height: 100vh;
+}
+
+.heading-banner h1 {
+    font-size: 45px;
+
+}
+
+.heading-banner p {
+    max-width: 365px;
+
+}
+
+  /* header css ends */
+
+/* aboutus css starts */
+
+.aboutus-content-img{
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.aboutus-main-heading{
+    margin-bottom: 1rem;
+}
+
+.aboutus-content h2 {
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+    max-width: 450px;
+    word-spacing: 8px;
+    margin-top: 10px;    
+}
+
+.aboutus-mission-purpose{
+  flex-direction: column;
+
+}
+.aboutus-mission-purpose p {
+
+    max-width:100%;
+}
+
+.aboutus-img{
+  text-align: center;
+}
+
+.aboutus-img img {
+    height: 300px;
+}
+
+
+/* aboutus css ends */
+
+
+
+/* counter section starts */
+.counter-section{
+  flex-direction: column;
+  align-items: center;
+  gap:30px ;
+}
+
+.counter-content h1 {
+    margin: 0;
+    font-weight: 600;
+    width: 450px;
+}
+
+/* counter section ends */
+
+
+/* ourservicesbsection starts */
+
+.ourservices-section h1 {
+    font-size: 30px;
+}
+
+.ourservices-cards{
+  flex-direction: column;
+
+}
+.ourservices-card h4 {
+   font-size: 20px;
+
+}
+/* ourservicesbsection ends */
+
+/* helping card starts */
+
+.helping-section{
+    margin-bottom: 60px;
+}
+
+.helping-section-boxes{
+  flex-direction: column;
+  gap: 50px;
+
+}
+
+.helping-section h1 {
+
+font-size: 30px;
+
+}
+
+.helping-curve {
+  text-align: center;
+}
+
+.helping-curve img{
+  transform: rotate(250deg);
+}
+.helping-curve .curve-180{
+      transform: rotate(105deg);
+}
+/* helping card ends */
+
+
+/*banner 2 css starts */
+.banner-2-section {
+
+    background: url("../img/why-choose-bg.png") no-repeat center;
+    width: 100%;
+    height: 50rem;
+    margin-bottom: 60px;
+}
+
+.banner-2-inner{
+  flex-direction: column;
+  gap: 40px;
+}
+
+.banner-2-img{
+  text-align: center;
+}
+
+.banner-2-img img {
+    width: 345.5px;
+   height: 290px;
+}
+
+.banner-2-content h1 {
+
+    font-size: 30px;
+ 
+
+}
+.content-cards{
+   flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.content-card-card {
+    padding: 8px;
+    height: 170px;
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/*banner 2 css ends */
+
+/* carousel section css starts */
+
+.vertical.carousel .carousel-indicators {
+
+    margin-left: 1rem;
+}
+
+
+.carousel-inner{
+  padding: 6px;
+}
+
+.carousal-button{
+  margin-right: 1rem;
+}
+
+.carousel-item  p{
+    max-width: 250px;
+    width: 100%;
+    font-size: 13px;
+}
+
+/* carousel section css ends */
+
+/* faq section css starts */
+
+.faq-section {
+    background: url(../img/footer-man-shape.png) no-repeat 0% 98%, url(../img/footer-man-shape-2.png) no-repeat 92% 98%, url(../img/footer-plant.png) no-repeat 99% 100%, url(../img/footer-dot-1.png) no-repeat 17% 65%, url(../img/footer-dot-1.png) no-repeat 98% 80%, url(../img/footer-rocket.png) no-repeat 74% 88%, url(../img/faqs-orange-line.svg) no-repeat 24.5% 14%, url(../img/footer-2-bg-2.png) no-repeat bottom;
+    background-size: 100px, 100px, 20px, auto, auto, 50px, 300px 20px, auto;
+    }
+
+
+.faq-heading,.faq-content{
+   width: 100%;
+}
+
+.faq-heading h1 {
+    font-size: 30px;
+   
+}
+
+
+.faq-heading h5{
+   width: 275px;
+}
+
+.faq-heading p {
+    font-size: 14px;
+        width: 220px;
+
+}
+
+.faq-flex{
+  flex-direction: column;
+  gap: 40px;
+}
+
+.faq-box .faq-answer p {
+    width: 290px;
+
+}
+.faq-content {
+    height: 600px;
+}
+/* faq section css ends */
+
+
+/* footer section css ends */
+.footer-flex{
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+.footer-box{
+  width: 200px;
+}
+
+/* footer section css ends */
+
+/* copyright section css starts */
+
+.copyright-section p{
+ font-size: 15px;
+}
+
+/* copyright section css ends */
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 769px) {
+.navbar-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse ul li a{
+  font-size: 11px;
+}
+
+.navbar-content button{
+  margin-left: 20px;
+}
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+@media  (min-width: 768px) and (max-width: 1024px) {
+
+  
+/* paddding */
+
+.container {
+    padding: 0 12px;
+}
+
+  /* header css starts */
+header {
+    background: url(../img/banner-archer.png) no-repeat 55% 80%, url(../img/banner-dots.png) no-repeat 90% 85%, url(../img/banner-plus.png) no-repeat 10% 15%, url(../img/banner-tree.png) no-repeat 20% 100%, url(../img/banner-megaphone.png) no-repeat center right, url(../img/banner-pose.png) no-repeat 2% 70%, url(../img/banner-16.png) no-repeat center;
+    width: 100%;
+    height: 100vh;
+    background-size: 270px, auto, auto, 100px, 150px, 150px, cover;
+}
+
+.collapse ul li a{
+  font-size: 13px;
+}
+
+.heading-banner h1 {
+    font-size: 45px;
+
+}
+
+.heading-banner p {
+    max-width: 365px;
+
+}
+
+  /* header css ends */
+
+/* aboutus css starts */
+
+
+
+.aboutus-main-heading{
+    margin-bottom: 1rem;
+}
+
+.aboutus-content h2 {
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+    max-width: 450px;
+    word-spacing: 8px;
+    margin-top: 10px;    
+}
+
+
+  .aboutus-content p {
+    font-size: 13px;
+
+    max-width: 383px;
+}
+
+
+
+.aboutus-mission-purpose p {
+    width: 100%;
+    max-width:280px;
+}
+
+.aboutus-img{
+  text-align: center;
+}
+
+.aboutus-img img {
+    height: 300px;
+}
+
+
+/* aboutus css ends */
+
+
+
+/* counter section starts */
+
+
+.counter-content p{
+  font-size: 10px;
+}
+
+.counter-content h1 {
+  font-size: 25px;
+    margin: 0;
+    font-weight: 600;
+    width: 130px;
+}
+
+/* counter section ends */
+
+
+/* ourservicesbsection starts */
+
+.ourservices-section h1 {
+    font-size: 30px;
+}
+
+.ourservices-card h4 {
+   font-size: 20px;
+
+}
+/* ourservicesbsection ends */
+
+/* helping card starts */
+
+.helping-section{
+    margin-bottom: 60px;
+}
+
+
+
+.helping-section h1 {
+
+font-size: 30px;
+
+}
+
+
+.helping-curve {
+    text-align: center;
+    max-width: 98px;
+}
+
+.helping-card1 h5,.helping-card2 h5,.helping-card3 h5,.helping-card4 h5 {
+ 
+
+    font-size: 15px;
+}
+/* helping card ends */
+
+
+/*banner 2 css starts */
+.banner-2-section {
+
+    background: url("../img/why-choose-bg.png") no-repeat center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.banner-2-inner{
+  gap: 50px;
+
+}
+
+.banner-2-img{
+  text-align: center;
+}
+
+.banner-2-img img {
+    width: 300px;
+   height: 290px;
+}
+
+.banner-2-content h1 {
+
+    font-size: 30px;
+ 
+
+}
+
+.banner-2-content p {
+    width: 100%;
+    max-width: 390px;
+
+}
+
+.content-card-card {
+    padding: 13px;
+    height: 180px;
+        display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.content-cards{
+   flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
+/*banner 2 css ends */
+
+/* faq section css starts */
+
+.faq-section {
+    background: url(../img/footer-man-shape.png) no-repeat 0% 98%, url(../img/footer-man-shape-2.png) no-repeat 92% 98%, url(../img/footer-plant.png) no-repeat 99% 100%, url(../img/footer-dot-1.png) no-repeat 17% 65%, url(../img/footer-dot-1.png) no-repeat 98% 80%, url(../img/footer-rocket.png) no-repeat 74% 88%, url(../img/faqs-orange-line.svg) no-repeat 24.5% 14%, url(../img/footer-2-bg-2.png) no-repeat bottom;
+    background-size: 100px, 100px, 20px, auto, auto, 50px, 300px 20px, auto;
+    }
+
+
+.faq-heading,.faq-content{
+   width: 100%;
+}
+
+.faq-heading h1 {
+    font-size: 30px;
+   
+}
+
+
+.faq-heading h5{
+   width: 275px;
+}
+
+.faq-heading p {
+    font-size: 14px;
+        width: 220px;
+
+}
+
+.faq-flex{
+  
+  gap: 40px;
+}
+
+.faq-box .faq-answer p {
+    width: 290px;
+
+}
+.faq-content {
+    height: 600px;
+}
+/* faq section css ends */
+
+
+/* footer section css ends */
+.footer-flex{
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+.footer-box{
+  width: 200px;
+}
+
+/* footer section css ends */
+}
